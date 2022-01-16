@@ -1,0 +1,181 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+#title{
+  background-color: #ff4c68;
+  color: #ffffff;
+  text-align: left;
+  }
+
+h1{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+#container-fluid{
+  padding: 0 15% 8%;
+
+}
+
+#TinDog{
+  font-size: 2.5rem;
+  color: #ffffff;
+  font-family: 'Ubuntu',sans-serif;
+  font-weight: bold;
+}
+
+#navbar{
+  padding: 4.5rem 0;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-light"
+}
+
+.nav-link:hover{
+  background-color: #fff;
+}
+
+
+ /* Area of buttons */
+
+ .Download-button{
+   margin: 5% 3% 5% 0%;
+ }
+
+/* Title Image */
+
+.main-dog{
+  width: 60%;
+  transform: rotate(25deg);
+  margin-bottom: 19px;
+  position: absolute;
+  right: 30%
+}
+
+/* middle */
+
+#features{
+  padding: 10% 15%;
+  background-color: #fff;
+  position: relative;
+
+}
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+
+}
+
+.icon{
+  color:#ef8172;
+  margin-bottom: 1.5rem;
+
+}
+.icon:hover{
+color: #ff4c68;
+}
+
+/* tedtimonial */
+#testimonials{
+
+  text-align: center;
+  background-color: #ff4c68 ;
+  color:#fff;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin:20px;
+}
+
+/* press */
+#press{
+  background-color:#ff4c68;
+  padding-bottom: 3%;
+  text-align: center;
+}
+.press-logo{
+  width:15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing */
+#pricing{
+  padding: 100px;
+}
+
+.carousel-item {
+  padding:7% 15%;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+  text-align: center;
+}
+/* <!-- Call to Action --> */
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  color: #fff;
+  padding-top: 20px;
+
+}
+.cta-button{
+   margin: 3% 3% 5% 0%;
+}
+.h3{
+  width:60%;
+  margin: 0 auto;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+
+}
+/* footer */
+#footer{
+  text-align: center;
+  padding: 5%;
+}
+.icon-footer{
+margin:20px 10px;
+}
+/* refactoring */
+.colored-section{
+
+}
+.white-section{
+
+}
+/* media */
+@media(max-width:1024px){
+  #title{
+    text-align: center;
+  }
+  .main-dog{
+    position: static;
+    transform: rotate(0);
+  }
+}
